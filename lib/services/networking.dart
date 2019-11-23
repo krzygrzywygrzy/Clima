@@ -13,7 +13,7 @@ class NetworkHelper {
       var decodedData = jsonDecode(data);
       return decodedData;
     } else {
-      print('sprawa się rypła');
+      print('Can\'t get data');
     }
   }
 }
